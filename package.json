@@ -1,15 +1,16 @@
 {
-  "name": "CSL Members",
+  "name": "csl-members-area",
   "private": true,
   "version": "0.2.0",
-  "description": "",
+  "description": "CSL custom version of members-area.",
   "main": "index.js",
+  "repository": "git://github.com/jlowe64/csl-members-area",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "if [ -x ./.env ]; then . ./.env; fi; ./node_modules/.bin/coffee --nodejs --max_old_space_size=450 index.coffee"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jerrett Fowler",
+  "license": "GPLv3",
   "dependencies": {
     "coffee-script": ">1.6",
     "members-area": "git://github.com/members-area/members-area",
